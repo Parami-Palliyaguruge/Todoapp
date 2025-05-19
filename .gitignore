@@ -1,0 +1,164 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+.vs/
+.vscode/
+*.swp
+*.swo
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+
+# Production
+/build
+/dist
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+appsettings.*.json
+!appsettings.json
+!appsettings.Example.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+*.sln.iml
+.vs/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sw?
+
+# Misc
+.DS_Store
+Thumbs.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Package files
+*.nupkg
+# NuGet Packages Directory
+packages/
+# except build/, which is used as an MSBuild target
+!**/packages/build/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Frontend
+## dependencies
+frontend/node_modules
+frontend/.pnp
+frontend/.pnp.js
+
+## testing
+frontend/coverage
+
+## production
+frontend/build
+frontend/dist
+
+## misc
+frontend/.DS_Store
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Backend
+## Build results
+backend/**/[Dd]ebug/
+backend/**/[Dd]ebugPublic/
+backend/**/[Rr]elease/
+backend/**/[Rr]eleases/
+backend/**/x64/
+backend/**/x86/
+backend/**/[Ww][Ii][Nn]32/
+backend/**/[Aa][Rr][Mm]/
+backend/**/[Aa][Rr][Mm]64/
+backend/**/bld/
+backend/**/[Bb]in/
+backend/**/[Oo]bj/
+backend/**/[Ll]og/
+backend/**/[Ll]ogs/
+
+## Visual Studio files
+.vs/
+**/*.user
+**/*.userosscache
+**/*.sln.docstates
+**/*.suo
+**/*.userprefs
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Local development settings
+**/appsettings.Development.json
+**/appsettings.*.json
+!**/appsettings.json
+
+## IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Rider
+.idea/
+*.sln.iml
+
+## System Files
+.DS_Store
+Thumbs.db 
