@@ -74,6 +74,3 @@ dotnet run --project TodoApp.API
 ## Testing
 - Frontend: `npm test`
 - Backend: `dotnet test`
-
-## API Documentation
-API documentation is available at `/swagger` when running the backend in development mode. 
