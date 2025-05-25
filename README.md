@@ -67,8 +67,9 @@ npm start
 1. Navigate to the backend directory
 ```bash
 cd backend
+cd TodoApp.API
 dotnet restore
-dotnet run --project TodoApp.API
+dotnet run
 ```
 
 ## Testing
